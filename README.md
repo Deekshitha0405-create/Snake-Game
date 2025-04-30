@@ -1,3 +1,64 @@
+# 🐍 Classic Snake Game (Java)
+
+A visually appealing Snake Game built in Java Swing, with real-time controls and potential for exciting future upgrades.
+
+## 🎮 Game Overview
+
+### 🏁 Objective
+Control a snake to eat food and grow. The game ends if the snake hits itself or the screen edges.
+
+## 🧱 Setup
+Grid size: 600x600 pixels
+Snake starts at center, facing right
+Randomly spawning food
+
+## 🎮 Gameplay
+
+### 🐍 Movement
+- Controlled by arrow keys (↑ ↓ ← →)
+- Moves continuously in the last chosen direction
+- No edge wrapping — hitting edges ends the game
+
+### 🍎 Eating Food
+- Dark blue circles appear as food
+- Snake grows when it eats food
+
+### 📈 Scoring
+- Score increases with each food item eaten
+- Speed may increase in future updates
+
+### ❌ Game Over
+- Occurs if:
+  - Snake collides with itself
+  - Snake hits the boundary
+
+---
+
+## ✨ Features
+
+- Snake: light yellow (`#FFFF99`)
+- Food: dark blue (`#00008B`)
+- Smooth real-time control
+- Continuous movement animation
+
+---
+
+## 🔮 Future Enhancements
+
+- Dynamic difficulty
+- Obstacles/hazards
+- Game levels
+- Sound effects
+- High score system
+
+---
+
+## 🛠 Installation
+
+### Requirements
+- Java JDK 8+
+- Java IDE (e.g., IntelliJ, Eclipse, VS Code) or terminal with `javac`/`java`
+
 # Snake-Game
 import javax.swing.*;
 import java.awt.*;
